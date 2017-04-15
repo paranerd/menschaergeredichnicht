@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+	<title>Mensch Aergere Dich Nicht</title>
+	<link rel="stylesheet" href="design.css" />
+</head>
+
+<body>
+	<div id="info">Let's Go!</div>
+
+	<div id="board">
+		<!-- Dice -->
+		<div id="dice" class="col5 row5"></div>
+
+		<!-- Bases -->
+
+		<!-- Base player 0 -->
+		<div id="b0" class="baseContainer active col0 row0"></div>
+		<div id="b00" class="player0 base field col0 row0"><div id="p00" class="player0 piece"></div></div>
+		<div id="b01" class="player0 base field col1 row0"><div id="p01" class="player0 piece"></div></div>
+		<div id="b02" class="player0 base field col0 row1"><div id="p02" class="player0 piece"></div></div>
+		<div id="b03" class="player0 base field col1 row1"><div id="p03" class="player0 piece"></div></div>
+
+		<!-- Base player 1 -->
+		<div id="b1" class="baseContainer col9 row0"></div>
+		<div id="b10" class="player1 base field col9 row0"><div id="p10" class="player1 piece"></div></div>
+		<div id="b11" class="player1 base field col10 row0"><div id="p11" class="player1 piece"></div></div>
+		<div id="b12" class="player1 base field col9 row1"><div id="p12" class="player1 piece"></div></div>
+		<div id="b13" class="player1 base field col10 row1"><div id="p13" class="player1 piece"></div></div>
+
+		<!-- Base player 2 -->
+		<div id="b2" class="baseContainer col9 row9"></div>
+		<div id="b20" class="player2 base field col9 row9"><div id="p20" class="player2 piece"></div></div>
+		<div id="b21" class="player2 base field col10 row9"><div id="p21" class="player2 piece"></div></div>
+		<div id="b22" class="player2 base field col9 row10"><div id="p22" class="player2 piece"></div></div>
+		<div id="b23" class="player2 base field col10 row10"><div id="p23" class="player2 piece"></div></div>
+
+		<!-- Base player 3 -->
+		<div id="b3" class="baseContainer col0 row9"></div>
+		<div id="b30" class="player3 base field col0 row9"><div id="p30" class="player3 piece"></div></div>
+		<div id="b31" class="player3 base field col1 row9"><div id="p31" class="player3 piece"></div></div>
+		<div id="b32" class="player3 base field col0 row10"><div id="p32" class="player3 piece"></div></div>
+		<div id="b33" class="player3 base field col1 row10"><div id="p33" class="player3 piece"></div></div>
+
+		<!-- Starter player 0 -->
+		<div id="f0" class="player0 start0 field col0 row4"></div>
+
+		<div id="f1" class="field col1 row4"></div>
+		<div id="f2" class="field col2 row4"></div>
+		<div id="f3" class="field col3 row4"></div>
+		<div id="f4" class="field col4 row4"></div>
+		<div id="f5" class="field col4 row3"></div>
+		<div id="f6" class="field col4 row2"></div>
+		<div id="f7" class="field col4 row1"></div>
+		<div id="f8" class="field col4 row0"></div>
+		<div id="f9" class="field col5 row0"></div>
+
+		<!-- Home player 1 -->
+		<div id="f10" class="player1 home1 field col5 row1"></div>
+		<div id="f11" class="player1 home1 field col5 row2"></div>
+		<div id="f12" class="player1 home1 field col5 row3"></div>
+		<div id="f13" class="player1 home1 field col5 row4"></div>
+		
+		<!-- Starter player 1 -->
+		<div id="f14" class="player1 start1 field col6 row0"></div>
+
+		<div id="f15" class="field col6 row1"></div>
+		<div id="f16" class="field col6 row2"></div>
+		<div id="f17" class="field col6 row3"></div>
+		<div id="f18" class="field col6 row4"></div>
+		<div id="f19" class="field col7 row4"></div>
+		<div id="f20" class="field col8 row4"></div>
+		<div id="f21" class="field col9 row4"></div>
+		<div id="f22" class="field col10 row4"></div>
+		<div id="f23" class="field col10 row5"></div>
+
+		<!-- Home player 2 -->
+		<div id="f24" class="player2 home2 field col9 row5"></div>
+		<div id="f25" class="player2 home2 field col8 row5"></div>
+		<div id="f26" class="player2 home2 field col7 row5"></div>
+		<div id="f27" class="player2 home2 field col6 row5"></div>
+
+		<!-- Starter player 2 -->
+		<div id="f28" class="player2 start2 field col10 row6"></div>
+
+		<div id="f29" class="field col9 row6"></div>
+		<div id="f30" class="field col8 row6"></div>
+		<div id="f31" class="field col7 row6"></div>
+		<div id="f32" class="field col6 row6"></div>
+		<div id="f33" class="field col6 row7"></div>
+		<div id="f34" class="field col6 row8"></div>
+		<div id="f35" class="field col6 row9"></div>
+		<div id="f36" class="field col6 row10"></div>
+		<div id="f37" class="field col5 row10"></div>
+
+		<!-- Home player 3 -->
+		<div id="f38" class="player3 home3 field col5 row6"></div>
+		<div id="f39" class="player3 home3 field col5 row7"></div>
+		<div id="f40" class="player3 home3 field col5 row8"></div>
+		<div id="f41" class="player3 home3 field col5 row9"></div>
+
+		<!-- Starter player 3 -->
+		<div id="f42" class="player3 start3 field col4 row10"></div>
+
+		<div id="f43" class="field col4 row9"></div>
+		<div id="f44" class="field col4 row8"></div>
+		<div id="f45" class="field col4 row7"></div>
+		<div id="f46" class="field col4 row6"></div>
+		<div id="f47" class="field col3 row6"></div>
+		<div id="f48" class="field col2 row6"></div>
+		<div id="f49" class="field col1 row6"></div>
+		<div id="f50" class="field col0 row6"></div>
+		<div id="f51" class="field col0 row5"></div>
+
+		<!-- Home player 0 -->
+		<div id="f52" class="player0 home0 field col1 row5"></div>
+		<div id="f53" class="player0 home0 field col2 row5"></div>
+		<div id="f54" class="player0 home0 field col3 row5"></div>
+		<div id="f55" class="player0 home0 field col4 row5"></div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/menschaergeredichnicht.js"></script>
+</body>
+</html>
